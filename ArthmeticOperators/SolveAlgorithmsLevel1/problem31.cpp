@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 int main (){
@@ -7,7 +8,7 @@ int main (){
     cout<< "Enter your number\n";
     cin>> a;
 
-    cout<< "The result of the number ^ 2 = " << a * a << endl ;
-    cout<< "The result of the number ^ 3 = " << a * a * a << endl ;
-    cout<< "The result of the number ^ 4 = " << a * a * a * a << endl ;
+    cout<< "The result of the number ^ 2 = " << (round(pow(a, 2))) << endl ;
+    cout<< "The result of the number ^ 3 = " << (round(pow(a, 3))) << endl ;
+    cout<< "The result of the number ^ 4 = " <<(round(pow(a, 4))) << endl ;
 }

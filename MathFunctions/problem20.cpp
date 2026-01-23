@@ -3,14 +3,14 @@
 using namespace std;
 
 int main(){
-    float d;
+    float a;
     const float pi = 3.14;
 
     cout<<"Please enter your diameter num :\n";
-    cin>> d;
+    cin>> a;
 
-    float areaOfTheCircle = ceil((pi * pow(d ,2))/4);
+    double areaOfTheCircle = ceil((pow(a,2) * pi) / 4);
 
-    cout<< "The area of your circle is : " << areaOfTheCircle;
+    cout<< areaOfTheCircle;
 
 }
