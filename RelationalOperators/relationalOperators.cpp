@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int a , b;
+
+    cout << "enter your first number please : \n";
+    cin >> a;
+
+    cout << "enter your second number please : \n";
+    cin >> b;
+
+    cout<< (a == b)<< endl;
+    cout<< (a != b)<< endl;
+    cout<< (a > b)<< endl;
+    cout<< (a < b)<< endl;
+    cout<< (a >= b)<< endl;
+    cout<< (a >= b)<< endl;
+}

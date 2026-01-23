@@ -11,7 +11,7 @@ int main(){
     cout<<" The Cash Paid is = ";
     cin>> CashPaid;
 
-    cout<< "The pay remainer is = "<< totalBill - CashPaid;
+    cout<< "The pay remainer is = "<< CashPaid - totalBill;
     
 
 
