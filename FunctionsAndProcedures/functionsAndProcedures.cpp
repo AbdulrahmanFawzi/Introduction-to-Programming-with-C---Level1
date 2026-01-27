@@ -11,13 +11,10 @@ int myfunction(){
     cout<< "Please enter your second number:\n ";
     cin>> b;
 
-    double result = a + b;
-
     
-    cout<< result;
-    return result;
+    return a + b;
 }
 
 int main(){
-     myfunction();
+     cout<< myfunction();
 }
