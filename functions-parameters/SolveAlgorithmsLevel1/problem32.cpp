@@ -14,5 +14,5 @@ int main (){
     cout<< "Enter your number\n";
     cin>> b;
 
-    cout<< "The result of the powr is = " << powerOfNum(a,b);
+    cout<< "The result of the powr is  " << powerOfNum(a,b);
 }
